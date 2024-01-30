@@ -1,0 +1,30 @@
+@use '../../styles/_variables' as *
+
+.hero
+  width: 100%
+  height: 295px
+  padding: 12px 15px
+  background-color: $primary-color
+  position: relative
+  &__image
+    width: 100%
+    height: 270px
+    object-fit: cover
+  &__title-container
+    width: 357px
+    height: 78px
+    background-color: rgba($bg-color-2, 0.5)
+    position: absolute
+    left: calc( 50% - 357px / 2 )
+    top: calc( 50% - 78px / 2 )
+    display: grid
+    place-items: center
+    color: $light-color
+    &__title
+      font-family: $title-font
+      font-size: 2.4rem
+      text-align: center
+      line-height: 23px
+
+:where(.css-dev-only-do-not-override-1b0bdye).ant-carousel .slick-dots-bottom
+  opacity: 0
