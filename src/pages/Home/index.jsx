@@ -2,6 +2,7 @@ import CustomizeEvent from '../../components/CustomizeEvent'
 import EventsGallery from '../../components/EventsGallery'
 import Header from '../../components/Header'
 import Hero from '../../components/Hero'
+import OurServices from '../../components/OurServices'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
         <Hero />
         <CustomizeEvent />
         <EventsGallery />
+        <OurServices />
       </main>
     </div>
   )
